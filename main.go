@@ -44,3 +44,5 @@ func NewGenesisBlock() *Block {
 func NewBlockchain() *Blockchain {
 	return &Blockchain{[]*Block{NewGenesisBlock()}}
 }
+
+func main() {}
